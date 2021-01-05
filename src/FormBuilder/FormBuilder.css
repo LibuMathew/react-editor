@@ -1,0 +1,38 @@
+.form-group > div {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.form-label {
+    margin-bottom: 5px;
+}
+
+input[type=text], select {
+    padding: 8px;
+    border: 2px solid #0a7966;
+}
+
+input[type=checkbox]:focus {
+    outline: 1px solid rgb(10 121 102);
+}
+
+input[type=checkbox] {
+    background-color: #fafafa;
+    border-radius: 2px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
+    border: 2px solid #0a7966;
+}
+
+input[type=checkbox]:checked {
+    border: 0px;
+    background-color: #0a7966;
+    background: #0a7966 url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==") 3px 3px no-repeat;
+}

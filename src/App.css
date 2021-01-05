@@ -1,0 +1,98 @@
+.App {
+  background-color: #cfd8dc;
+  background-color: #164A41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App-container {
+  background-color: #fafafa;
+  width: 50%;
+  height: 500px;
+  color: #000000;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 0 10px;
+}
+
+.App-header {  
+  display: flex;
+  justify-content: space-between;
+  background-color: #3f51b5;
+  background-color: #4d774e;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+  height: 45px;
+  line-height: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.App-header > h1 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding-left: 6px;
+}
+
+.App-editor-container {
+  display: flex;
+  height: calc( 100% - 56px);
+  background-color: #9dc88d;
+  background-color: #4d774e;
+}
+
+.editor-actions {
+  margin: 6px;
+}
+
+button {
+  position: relative;
+  background-color: #f1b24a;
+  border: none;
+  font-size: 13px;
+  color: #ffffff;
+  padding: 6px;
+  width: 60px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 2px 8px 0 rgb(0 0 0 / 10%);
+  cursor: pointer;
+  margin: 4px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 0.5;
+  transition: 0s
+}
+
+button:disabled {
+  background: #ddd;
+  color: #928f8f;
+  cursor: not-allowed;
+}
+
+#redo {
+  margin-right: 20px;
+}
+
