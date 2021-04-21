@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Screenshot](https://github.com/LibuMathew/react-editor/blob/main/capture/form-init.JPG?raw=true)
+
 ## Installing packages using:
 
 ### `npm install`
