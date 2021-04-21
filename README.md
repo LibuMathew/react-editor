@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Sample Screen
 ![Screenshot](https://github.com/LibuMathew/react-editor/blob/main/capture/form-init.JPG?raw=true)
 
 ## Installing packages using:
@@ -25,8 +26,4 @@ You will also see any lint errors in the console.
 
 Go to `\src\Data\FormData.js` and update the default configuration and reload app again you can see the latest items & corresponding fields.
 
-
-### Sample Screen
-
-![alt text](https://github.com/LibuMathew/react-editor/blob/main/capture/form-init.JPG)
 
